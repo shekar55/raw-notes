@@ -13,3 +13,30 @@ for DB we have to use EBS, we use dynamic provisioning
  2. give access to EC2 servers.
  3. creation of storage class - Sc creation is not depends on application, it is admin activity completely outside application manifest files.
  4. create PVC and mount to the pod.
+
+Helm charts 
+-----------
+1.building and pushing images --> through CI can be done 
+2.manifest, how to run the image ---> input latest version 
+
+
+1.we will keep the important files aside,edit only required fields
+
+DRY RUN
+without touching main files,,we will send parameters
+
+example
+#!bin/bash 
+NAME= Shekar 
+-------
+#!bin/bash
+NAME=$1
+-----
+HELM purpose is two types:
+1. parameterise the kubernetes manifest files
+2.it is kubernetes package manager
+
+
+
+
+
