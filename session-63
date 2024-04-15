@@ -1,0 +1,15 @@
+. Static and dynamic provisioning
+-------------------------------
+SC-- > used for dynamic provisioning
+ PV --> representation of external storage
+ PVC --> a claim that can make to mount the volume
+StatefulSet vs Deployment
+StatefulSet is for DB applications, it keeps the network identity same. it uses headless service 
+
+ EBS or EFS
+for DB we have to use EBS, we use dynamic provisioning
+
+ 1. install EBS CSI driver.
+ 2. give access to EC2 servers.
+ 3. creation of storage class - Sc creation is not depends on application, it is admin activity completely outside application manifest files.
+ 4. create PVC and mount to the pod.
