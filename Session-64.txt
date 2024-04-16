@@ -86,6 +86,7 @@ replicas --> 1 or 10
 
 CPU Utilisation or Memory Utilisation
 
+Apache bench for load testing
 
 metricsserver
 ------------
