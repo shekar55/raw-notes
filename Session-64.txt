@@ -93,16 +93,16 @@ metricsserver
 
 Ingress Controller
 ------------------
-amazon.joindevops.online --> it can go to amazon project
-flipkart.joindevops.online --> it can go to flipkart project
+amazon.joindevops.online --> it can go to amazon project   ------------>host path
+flipkart.joindevops.online --> it can go to flipkart project ----------> host path
 
 m.facebook.com --> redirect mobile website
 facebook.com --> actual application
 admin.facebook.com --> redirect admin website
 
-joindevops.online/amazon
+joindevops.online/amazon  ---->context path
 
-joindevops.online/flipkart
+joindevops.online/flipkart----> context path
 
 
 M2tsNTNwYW12dWRpYmRvamhoaXFuNmJtMDggaW5mb0Bqb2luZGV2b3BzLmNvbQ
