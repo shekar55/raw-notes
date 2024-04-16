@@ -59,6 +59,8 @@ ramesh --> team leader
 
 configmap aws-auth in kube-system, here we need to map IAM user and k8-rbac
 
+kubectl get configmap aws-auth -n kube-system -o yaml
+
 
 apiVersion: v1
 data:
